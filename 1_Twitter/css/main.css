@@ -1,0 +1,11 @@
+	/*** Inserta tu codigo aqui ***/
+								/*** GENERAL ***/
+
+								/*** Responsive ***/
+/*Desde mi punto de vista, estas media queries ya no son necesarios porque en Bootstrap ya estan definidos cuatro
+breakpoints que nos ayudan a que la página sea responsive, para este ejercicio solo se usaron dos, la que marca para
+celuar y pantalla de computadora*/
+@media screen and (max-width : 600px) {
+}
+@media screen and (max-width: 920px) {
+}
