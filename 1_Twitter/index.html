@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8"> <!-- Me sirve para colocar acentos y otros caracteres especiales -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Hace que mi página sea compatible con Internet Explorer -->
-		<!-- VIEWPORT - Cuando estamos hablando de dispositivos móviles, no corresponde al tamaño real de la pantalla en píxeles, sino al espacio que la pantalla está emulando que tiene 
-			- "device-width", que es una medida que hace referencia a la anchura de la pantalla del dispositivo, así que con width=device-width conseguimos que el viewport sea igual a la anchura real de la pantalla del dispositivo, de modo que no se tratará de emular una pantalla mayor de lo que realmente es y veremos los píxeles reales.
-			- Con initial-scale=1 conseguimos que no se haga zoom sobre el documento. Es bien simple, el contenido de la web no se transformará, ni se agrandará, ni se hará menor.-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<title>TodoApp</title> <!-- Iniciando  -->
-		<link rel="shortcut icon" href=""> <!-- "shortcut icon" nos indicaque es tipo icono, relación -->
+		<link rel="shortcut icon" href="image/ico/favicon.png"> <!-- "shortcut icon" nos indicaque es tipo icono, relación -->
 		<link rel="stylesheet" href="css/font-awesome.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body >
 		<!-- Inserta aqui tu codigo -->
-		<header>
-		<div class="continer">
-			<div class="row">
-				<div class="col-xs-12, col-sm-12">
-					
+		<header><!-- Inicia CABECERA-->
+			<div class="continer">
+				<div class="row">
+					<div class="col-xs-12, col-sm-12">
+						<nav class="text-center">
+							<h1>TODO APP</h1>
+						</nav>
+					</div>
 				</div>
 			</div>
-		</div>
-		</header>
-		
-		<section>
-		</section>
-		
-	 	<footer>
-	 	</footer>
-	 	
+		</header><!-- Termina CABECERA -->
+		<section><!-- Inicia Sección para agregar una nueva tarea -->
+			<div class="continer">
+				<div class="row">
+					<div class="col-xs-12, col-sm-12 pd-5 text-center">
+						<!-- Empieza la area de agregar elementos a la lista -->
+						<textarea id="texto" type="text" class="form-control" rows="3" placeholder="Añade tu nueva tarea"></textarea>
+	            		<button type="submit" id="boton" class="btn btn-primary mgt-3"><i class="fa fa-plus" aria-hidden="true"></i> Añadir tarea</button>
+	            		<!-- Termina agregar elementos -->
+	            		<!-- Empieza la area de la lista -->
+						<div class="pd-5 pre-scrollable">
+							<ul id="listaTareas">
+							</ul>
+						</div>
+						<!-- Termina el area de la lista-->
+					</div>
+				</div>
+			</div>
+		</section><!-- Inicia seccion Lista-->	 	
 		<!-- Se debe agregar JQuery para los plugins -->
-		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/jquery.js"></script>
 		<!-- Hay que acostumbrarse a colocar el js de bootstrap -->
 		<script src="js/bootstrap.min.js"></script>
+		<script src='js/main.js'></script>
 	</body>
 </html>

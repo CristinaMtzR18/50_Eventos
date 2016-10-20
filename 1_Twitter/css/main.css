@@ -1,11 +1,32 @@
 	/*** Inserta tu codigo aqui ***/
-								/*** GENERAL ***/
-
-								/*** Responsive ***/
-/*Desde mi punto de vista, estas media queries ya no son necesarios porque en Bootstrap ya estan definidos cuatro
-breakpoints que nos ayudan a que la página sea responsive, para este ejercicio solo se usaron dos, la que marca para
-celuar y pantalla de computadora*/
-@media screen and (max-width : 600px) {
+		/*** GENERAL ***/
+header{
+	background-color: #BEBCBC;
 }
-@media screen and (max-width: 920px) {
+
+li{
+	background-color: #BEBCBC;
+	width: 100%;
+	margin: 1% 0%;
+	text-align: left;
+	padding: 2%; 
+	border-radius: 5px 30px 45px 60px;
+	font-weight: bold;
+}
+
+ul li.checked {
+  text-decoration: line-through;
+}
+
+#listaTareas{
+	height: 15em;
+	margin-top: 5%;
+	list-style-type: none;
+}
+
+.pd-5{
+	padding: 3% 5%;
+}
+.mgt-3{
+	margin-top: 3%;
 }
