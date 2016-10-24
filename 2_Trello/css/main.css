@@ -1,0 +1,96 @@
+	/*** Inserta tu codigo aqui ***/
+		/*** GENERAL ***/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*BODY*/
+body {
+	background-image: url("../image/fondotrello.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+
+.lista {
+  padding: 7px;
+  width: 270px;
+}
+
+#anadirLista{
+  width: 250px;
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+  background-color:;
+  color: rgba(255,255,255,.7);
+}
+
+
+
+
+#subContenedor{
+	display: inline-block;
+}
+
+.inicial {
+	width: 260px;
+	height: 40px;
+	text-align: left;
+	font-size: 1em;
+	background-color: #006BA9;
+	border-radius: 4px;
+	border-style: none;
+	color: #CCE1ED;
+	cursor: pointer;
+}
+
+.inicial:hover {
+	background-color: #144A6A;
+}
+
+
+#subcontenedor{
+	background-color: green;
+}
+#fondo {
+	width: 300px;
+	height: 75px;
+	padding: 3px;
+	border-radius: 4px;
+	background-color: #E2E4E6;
+	display: none;
+	
+}
+
+#nota {
+    width: 290px;
+    padding: 1px;
+    height: 30px;
+    cursor: text;
+    text-align: center;
+    border-color: #AAAAAA;
+    border-style: double;
+    background-color: #D7D9DB;
+}
+
+#boton {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: #5DB449;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.pd-5{
+	padding: 3% 5%;
+}
+.mgt-3{
+	margin-top: 3%;
+}
