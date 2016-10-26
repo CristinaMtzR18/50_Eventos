@@ -32,7 +32,7 @@ function agregarElemento(){
   	//crea un elemento span para crear el simbolo de tachechito a cada eleneto de la lista
   	var span = document.createElement("span");
   	//se necesita de un nodo de texto para que sea visible el tachecito, elementos unicode
-  	var txt = document.createTextNode("\u2717");
+  	var txt = document.createTextNode("\uD83D\uDDD1");
   	//se agrega a cada span la clase close para cerrarla
   	span.className = "close";
   	//se agrega al span el simbolo
